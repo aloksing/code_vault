@@ -7,6 +7,8 @@
 // @match        https://*.mail.yahoo.com/*
 // @grant none
 // ==/UserScript==
+// Simple Greasemonkey/Tampermonkey Script to remove the Right Side 
+// Ads Pane in Yahoo Mail. Works for Firefox ad Google Chrome.
 
 function addGlobalStyle(css) {
 	var head, style;
